@@ -1,0 +1,39 @@
+name: flutter_amazonprime
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Añade aquí las dependencias adicionales que necesitas
+  provider: ^6.0.0   # Para el manejo de estado
+  http: ^1.2.2      # Para realizar peticiones HTTP
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Aquí defines tus assets, como imágenes.
+  assets:
+    - assets/amazon_prime_logo.png
+    - assets/movies.jpg
+    - assets/series.jpg
+    - assets/documentary.jpg
+    - assets/kids.jpg
+    - assets/comedy.jpg
+    - assets/suggestion1.jpg
+    - assets/suggestion2.jpg
+    - assets/suggestion3.jpg
+    - assets/suggestion4.jpg
+    - assets/suggestion5.jpg
